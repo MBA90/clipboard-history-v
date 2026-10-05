@@ -32,15 +32,56 @@ This extension reads the clipboard to build the history.
 
 ## Install
 
-From [extensions.gnome.org](https://extensions.gnome.org/extension/11151/clipboard-history-v/) (once the review is finished), or from the [latest release](https://github.com/MBA90/clipboard-history-v/releases/latest):
+### From GitHub (works now, before the GNOME Extensions review)
+
+**Step 1.** Download **[clipboard-history-v.zip](https://github.com/MBA90/clipboard-history-v/releases/latest/download/clipboard-history-v.zip)** (latest release).
+
+**Step 2.** Open a terminal in the folder where you saved it and run:
 
 ```bash
 gnome-extensions install --force clipboard-history-v.zip
 ```
 
-Then log out and back in, enable it in the Extensions app, and choose a shortcut in its preferences.
+**Step 3.** Log out and log back in, so GNOME Shell loads the new extension.
 
-To build the zip from source, run `./pack.sh`.
+**Step 4.** Turn it on in the **Extensions** app, or run:
+
+```bash
+gnome-extensions enable clipboard-history-v@mba90.github.io
+```
+
+**Step 5.** Open its preferences and choose a shortcut (Super+V is a good choice):
+
+```bash
+gnome-extensions prefs clipboard-history-v@mba90.github.io
+```
+
+Or do steps 1 and 2 in one go:
+
+```bash
+cd /tmp && wget -O clipboard-history-v.zip https://github.com/MBA90/clipboard-history-v/releases/latest/download/clipboard-history-v.zip && gnome-extensions install --force clipboard-history-v.zip
+```
+
+### From extensions.gnome.org
+
+Once the review is finished, install it from [extensions.gnome.org](https://extensions.gnome.org/extension/11151/clipboard-history-v/) or search for "Clipboard History V" in the **Extension Manager** app.
+
+### Update or remove
+
+To update, download the new zip and repeat steps 2 and 3. To remove:
+
+```bash
+gnome-extensions uninstall clipboard-history-v@mba90.github.io
+```
+
+### Build from source
+
+```bash
+git clone https://github.com/MBA90/clipboard-history-v.git
+cd clipboard-history-v
+./pack.sh
+gnome-extensions install --force clipboard-history-v@mba90.github.io.shell-extension.zip
+```
 
 Supports GNOME Shell 46 to 50.
 
