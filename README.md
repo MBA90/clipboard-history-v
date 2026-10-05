@@ -2,7 +2,7 @@
 
 A GNOME Shell extension that shows your clipboard history in a popup next to the text cursor, in the style of the Win+V panel.
 
-![Clipboard History V](screenshots/dark.png)
+<p align="center"><img src="screenshots/dark/image.png" alt="Clipboard History V, dark style" width="380"> &nbsp; <img src="screenshots/light/image.png" alt="Clipboard History V, light style" width="380"></p>
 
 ## Features
 
@@ -19,7 +19,7 @@ A GNOME Shell extension that shows your clipboard history in a popup next to the
 
 No keyboard shortcut is set by default. After enabling the extension, open its preferences and choose one. Super+V is a good choice.
 
-![Preferences](screenshots/preferences.png)
+![Preferences](screenshots/preferences/image.png)
 
 ## Privacy
 
