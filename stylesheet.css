@@ -1,0 +1,81 @@
+/* Clipboard History V — default (dark) */
+
+.chv-panel {
+  width: 360px;
+  height: 460px;
+  padding: 14px 6px 8px 6px;
+  background-color: rgba(36, 36, 36, 0.985);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 10.5pt;
+}
+
+.chv-header { padding: 0 10px 10px 12px; }
+.chv-title { font-weight: 600; }
+
+.chv-text-button {
+  padding: 2px 8px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: #60cdff;
+  font-size: 10pt;
+}
+.chv-text-button:hover { background-color: rgba(255, 255, 255, 0.06); }
+.chv-text-button:active { background-color: rgba(255, 255, 255, 0.03); }
+.chv-text-button:focus { border-color: #ffffff; }
+.chv-text-button:insensitive { color: rgba(255, 255, 255, 0.36); }
+
+.chv-list { spacing: 4px; padding: 0 12px 0 6px; }
+
+.chv-card {
+  background-color: rgba(255, 255, 255, 0.055);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+.chv-card:hover { background-color: rgba(255, 255, 255, 0.085); }
+.chv-card:focus { box-shadow: inset 0 0 0 2px #ffffff; }
+
+.chv-card-main { padding: 11px 4px 11px 12px; border-radius: 6px; }
+.chv-card-text { color: #ffffff; }
+.chv-card-image {
+  height: 110px;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.chv-card-side { padding: 4px 4px 4px 0; spacing: 2px; }
+
+.chv-icon-button {
+  padding: 4px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.86);
+}
+.chv-icon-button:hover { background-color: rgba(255, 255, 255, 0.08); color: #ffffff; }
+.chv-icon-button:active { background-color: rgba(255, 255, 255, 0.04); }
+.chv-icon-button:focus { border-color: #ffffff; }
+.chv-icon-button:checked { color: #60cdff; }
+
+.chv-pin-indicator { color: rgba(255, 255, 255, 0.72); padding-top: 2px; }
+
+.chv-actions { spacing: 2px; padding: 0 4px 4px 4px; }
+
+.chv-empty { spacing: 10px; padding: 24px 32px 56px 32px; }
+.chv-empty-icon { icon-size: 48px; color: rgba(255, 255, 255, 0.55); }
+.chv-empty-title { font-weight: 600; font-size: 11pt; }
+.chv-empty-body { color: rgba(255, 255, 255, 0.75); text-align: center; }
+
+.chv-accent-button {
+  margin-top: 8px;
+  padding: 4px 20px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: #60cdff;
+  color: #000000;
+  font-weight: 600;
+}
+.chv-accent-button:hover { background-color: #5bc0f0; }
+.chv-accent-button:focus { border-color: #ffffff; }

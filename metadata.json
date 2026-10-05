@@ -1,0 +1,15 @@
+{
+  "uuid": "clipboard-history-v@mba90.github.io",
+  "name": "Clipboard History V",
+  "description": "Clipboard history in a popup, in the style of the Win+V panel.\n\nThis extension reads the clipboard to keep a list of the last 25 text and image items you copied. Nothing is ever sent anywhere.\n\n- Set a keyboard shortcut in the preferences first (none is set by default), for example Super+V\n- The popup opens next to the text cursor; click an item or press Enter to paste it\n- Hold the shortcut's modifier and tap the key again to move down the list; release the modifier to paste\n- Pin items to keep them at the top and after a restart\n- Unpinned items are kept only in memory and are cleared when you log out\n- Items marked secret by password managers are never saved",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.clipboard-history-v",
+  "url": "https://github.com/mba90/clipboard-history-v",
+  "version-name": "1.3"
+}

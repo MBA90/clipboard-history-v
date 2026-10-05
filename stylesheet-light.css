@@ -1,0 +1,81 @@
+/* Clipboard History V — light */
+
+.chv-panel {
+  width: 360px;
+  height: 460px;
+  padding: 14px 6px 8px 6px;
+  background-color: rgba(243, 243, 243, 0.985);
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+  color: #1b1b1b;
+  font-size: 10.5pt;
+}
+
+.chv-header { padding: 0 10px 10px 12px; }
+.chv-title { font-weight: 600; }
+
+.chv-text-button {
+  padding: 2px 8px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: #005fb8;
+  font-size: 10pt;
+}
+.chv-text-button:hover { background-color: rgba(0, 0, 0, 0.04); }
+.chv-text-button:active { background-color: rgba(0, 0, 0, 0.02); }
+.chv-text-button:focus { border-color: #1b1b1b; }
+.chv-text-button:insensitive { color: rgba(0, 0, 0, 0.36); }
+
+.chv-list { spacing: 4px; padding: 0 12px 0 6px; }
+
+.chv-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+}
+.chv-card:hover { background-color: rgba(249, 249, 249, 0.95); }
+.chv-card:focus { box-shadow: inset 0 0 0 2px #1b1b1b; }
+
+.chv-card-main { padding: 11px 4px 11px 12px; border-radius: 6px; }
+.chv-card-text { color: #1b1b1b; }
+.chv-card-image {
+  height: 110px;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.chv-card-side { padding: 4px 4px 4px 0; spacing: 2px; }
+
+.chv-icon-button {
+  padding: 4px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.chv-icon-button:hover { background-color: rgba(0, 0, 0, 0.05); color: #000000; }
+.chv-icon-button:active { background-color: rgba(0, 0, 0, 0.03); }
+.chv-icon-button:focus { border-color: #1b1b1b; }
+.chv-icon-button:checked { color: #005fb8; }
+
+.chv-pin-indicator { color: rgba(0, 0, 0, 0.6); padding-top: 2px; }
+
+.chv-actions { spacing: 2px; padding: 0 4px 4px 4px; }
+
+.chv-empty { spacing: 10px; padding: 24px 32px 56px 32px; }
+.chv-empty-icon { icon-size: 48px; color: rgba(0, 0, 0, 0.45); }
+.chv-empty-title { font-weight: 600; font-size: 11pt; }
+.chv-empty-body { color: rgba(0, 0, 0, 0.7); text-align: center; }
+
+.chv-accent-button {
+  margin-top: 8px;
+  padding: 4px 20px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: #005fb8;
+  color: #ffffff;
+  font-weight: 600;
+}
+.chv-accent-button:hover { background-color: #1a6fc2; }
+.chv-accent-button:focus { border-color: #1b1b1b; }
