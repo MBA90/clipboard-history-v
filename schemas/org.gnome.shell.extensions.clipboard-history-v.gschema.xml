@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clipboard-history-v"
+          path="/org/gnome/shell/extensions/clipboard-history-v/">
+
+    <key name="history-enabled" type="b">
+      <default>true</default>
+      <summary>Clipboard history is on</summary>
+      <description>When off, nothing is recorded and the popup offers a "Turn on" button.</description>
+    </key>
+
+    <key name="open-clipboard-history-v" type="as">
+      <default>[]</default>
+      <summary>Shortcut that opens the clipboard history popup (none by default)</summary>
+    </key>
+
+    <key name="setup-hint-shown" type="b">
+      <default>false</default>
+      <summary>Internal: the "choose a shortcut" notification was shown</summary>
+    </key>
+
+    <key name="conflict-warned" type="s">
+      <default>''</default>
+      <summary>Internal: last shortcut conflict the user was told about</summary>
+    </key>
+
+    <key name="clear-history" type="i">
+      <default>0</default>
+      <summary>Internal: bumped by the preferences window to clear the history</summary>
+    </key>
+
+    <key name="released-shell-keys" type="as">
+      <default>[]</default>
+      <summary>Internal: GNOME Shell shortcuts temporarily freed for this extension</summary>
+    </key>
+  </schema>
+</schemalist>
